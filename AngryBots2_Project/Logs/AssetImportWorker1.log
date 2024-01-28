@@ -1,0 +1,1960 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.7f1 (0a9195b3d453) revision 692629'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'zh' Physical Memory: 32671 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Program Files\2023.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/myexe/AngryBots2/AngryBots2_Project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54599
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: E:/myexe/AngryBots2/AngryBots2_Project
+E:/myexe/AngryBots2/AngryBots2_Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [30676] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2548659739 [EditorId] 2548659739 [Version] 1048832 [Id] WindowsEditor(7,Andy-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [30676] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2548659739 [EditorId] 2548659739 [Version] 1048832 [Id] WindowsEditor(7,Andy-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 4.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.7f1 (0a9195b3d453)
+[Subsystems] Discovering subsystems at path E:/Program Files/2023.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/myexe/AngryBots2/AngryBots2_Project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   NVIDIA
+    VRAM:     8019 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'E:/Program Files/2023.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Program Files/2023.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Program Files/2023.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: E:/Program Files/2023.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002067 seconds.
+- Loaded All Assemblies, in  0.419 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.321 seconds
+Domain Reload Profiling: 740ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (169ms)
+		LoadAssemblies (153ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (165ms)
+				TypeCache.ScanAssembly (149ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (322ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (263ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (192ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.485 seconds
+Refreshing native plugins compatible for Editor in 3.85 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.892 seconds
+Domain Reload Profiling: 2376ms
+	BeginReloadAssembly (344ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (1049ms)
+		LoadAssemblies (1023ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (112ms)
+				TypeCache.ScanAssembly (94ms)
+			BuildScriptInfoCaches (28ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (892ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (696ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (398ms)
+			ProcessInitializeOnLoadMethodAttributes (188ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 5.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3338 unused Assets / (1.3 MB). Loaded Objects now: 3912.
+Memory consumption went from 128.7 MB to 127.4 MB.
+Total: 17.437400 ms (FindLiveObjects: 0.878800 ms CreateObjectMapping: 0.317400 ms MarkObjects: 13.826500 ms  DeleteObjects: 2.410700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6811.212761 seconds.
+  path: Assets/Scenes/Scenes/_CompletedLevel.unity
+  artifactKey: Guid(45eba04b58aa6498095a1cb79fc9acfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scenes/_CompletedLevel.unity using Guid(45eba04b58aa6498095a1cb79fc9acfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c90446cd83deceea781780d132da3f0c') in 0.0082711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.227742 seconds.
+  path: Assets/Environment/Rocks/Materials/CliffRock_B_Mat.mat
+  artifactKey: Guid(0401502e6f4fecd44a9dc9eec66b1f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Rocks/Materials/CliffRock_B_Mat.mat using Guid(0401502e6f4fecd44a9dc9eec66b1f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '608696bd866c37df5b374ede72928f87') in 0.1050579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Environment/Rocks/Materials/CliffRock_C_Mat.mat
+  artifactKey: Guid(4d9f88fe2aeb59542bb7dd9fd1539fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Rocks/Materials/CliffRock_C_Mat.mat using Guid(4d9f88fe2aeb59542bb7dd9fd1539fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '554ad8841fe3a9341e42e29570e0506d') in 0.0176872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.364847 seconds.
+  path: Assets/Gizmos/NavMeshModifierVolume Icon.png
+  artifactKey: Guid(751306fff3149f94db4f16064bf2aa92) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gizmos/NavMeshModifierVolume Icon.png using Guid(751306fff3149f94db4f16064bf2aa92) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f6532f4a28d512c86a9ed6e1e202c26') in 0.1465665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Environment/LightFittings/LightTrimEnds.fbx
+  artifactKey: Guid(b90151ce3f03c4f01a4df831365606c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/LightFittings/LightTrimEnds.fbx using Guid(b90151ce3f03c4f01a4df831365606c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aad36c23c879cf76d04a02951481cb3a') in 0.0644549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Character/Player_Prefab.prefab
+  artifactKey: Guid(bfe5fb299aa28b6469d665745ad07a23) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Character/Player_Prefab.prefab using Guid(bfe5fb299aa28b6469d665745ad07a23) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1973df61172eeaad190469435b39ea67') in 0.0598632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 246
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Environment/Rocks/PerimeterRocks_C.fbx
+  artifactKey: Guid(8a422026b656f4441a091974f290a20d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Rocks/PerimeterRocks_C.fbx using Guid(8a422026b656f4441a091974f290a20d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff0c8fde84bf9d246fe3689215d4b91e') in 0.0422414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Particles/Particles_EnemySpider_Explode_Prefab.prefab
+  artifactKey: Guid(627f197f886142346baeb51038b68647) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Particles/Particles_EnemySpider_Explode_Prefab.prefab using Guid(627f197f886142346baeb51038b68647) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0653f73b6e5527efbfd738f266e4d7dc') in 0.0409234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 56
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Audio/Projectile SFX/bullet_hit_metal_1.wav
+  artifactKey: Guid(b3577089004c440528164064cfe1a911) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/Projectile SFX/bullet_hit_metal_1.wav using Guid(b3577089004c440528164064cfe1a911) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bade176f02af6c297091a2238c948d3c') in 0.0639169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ScriptableRenderPasses/XRay/XRay-Graph.ShaderGraph
+  artifactKey: Guid(1715655de7a10164d88605bda6b066c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ScriptableRenderPasses/XRay/XRay-Graph.ShaderGraph using Guid(1715655de7a10164d88605bda6b066c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '196b536d88f5149d2fc2653e30060392') in 0.0110636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Environment/LightFittings/FloodLight_A.fbx
+  artifactKey: Guid(d57ee2657f1f64965a0fad67ac2e9a92) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/LightFittings/FloodLight_A.fbx using Guid(d57ee2657f1f64965a0fad67ac2e9a92) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dba5c42b6710fe80a090b93234194636') in 0.0444826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Projectiles/Bullet/Bullet.FBX
+  artifactKey: Guid(574d4e5bea2d7f246bf8164d1c47b6d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Projectiles/Bullet/Bullet.FBX using Guid(574d4e5bea2d7f246bf8164d1c47b6d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18e53861c66f002a12cf82bc10f9870c') in 0.0376959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NavMeshComponents/Editor/NavMeshModifierEditor.cs
+  artifactKey: Guid(62b6df9ac84ccb8409840bcdc28fc019) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/NavMeshComponents/Editor/NavMeshModifierEditor.cs using Guid(62b6df9ac84ccb8409840bcdc28fc019) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41c28834ca6447d90f3ebf7ecadab5e3') in 0.0127636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Skyboxes/EmptyHorizon/Back.tif
+  artifactKey: Guid(264362e9d562e472ab219c122e42b4ae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Skyboxes/EmptyHorizon/Back.tif using Guid(264362e9d562e472ab219c122e42b4ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0d3231bc4d7876de2fbeaa4182117fa') in 0.0325881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb434367cd16950efa58df753ac957a4') in 0.0122341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Skyboxes/EmptyHorizon/Front.tif
+  artifactKey: Guid(5d8ecf781d7af4f56b3c0061f36014bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Skyboxes/EmptyHorizon/Front.tif using Guid(5d8ecf781d7af4f56b3c0061f36014bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '832ccb716166f6403679e7ab0b029843') in 0.0347036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Skyboxes/EmptyHorizon/Bottom.tif
+  artifactKey: Guid(0321bafb9c2c4464a8f09c86e015b900) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Skyboxes/EmptyHorizon/Bottom.tif using Guid(0321bafb9c2c4464a8f09c86e015b900) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '216c0f7fa8f9431be756cb865706f4f4') in 0.0410115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/ShaderGraphs/Unlit_Screen2_Graph.shadergraph
+  artifactKey: Guid(acdc6fa77130c664db38de679a4cc389) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShaderGraphs/Unlit_Screen2_Graph.shadergraph using Guid(acdc6fa77130c664db38de679a4cc389) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb52a404775a31d72f026f249f31f768') in 0.0109345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/NavMeshComponents/Scripts/NavMeshLink.cs
+  artifactKey: Guid(9462d9ac7fc55bd4097b91224b7680c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/NavMeshComponents/Scripts/NavMeshLink.cs using Guid(9462d9ac7fc55bd4097b91224b7680c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dbb1193eb55fca914a78bdeba2727017') in 0.0148338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/VFX (Shared)/Materials/Glow_05.mat
+  artifactKey: Guid(9d9901d5344bfca4aba658052869383c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Materials/Glow_05.mat using Guid(9d9901d5344bfca4aba658052869383c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de3569f5e05b1aaaa724f2dad5575437') in 0.0197476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/Particles/Particles_Bullet_Impact_Wall_Prefab.prefab
+  artifactKey: Guid(1a0f7225fc3d5408280dfce6c1979b1a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Particles/Particles_Bullet_Impact_Wall_Prefab.prefab using Guid(1a0f7225fc3d5408280dfce6c1979b1a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aaca56796015fd8b3435ce03393090a7') in 0.0331404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Audio/Projectile SFX/bullet_hit_metal_enemy_3.wav
+  artifactKey: Guid(3cedc62efbdb44c8d81f3a233493a07b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/Projectile SFX/bullet_hit_metal_enemy_3.wav using Guid(3cedc62efbdb44c8d81f3a233493a07b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd636a56ef97281c70d6c2543f5f3e4f5') in 0.0589332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ProBuilder Data/ProBuilderPreferences.asset
+  artifactKey: Guid(78966a906eb5c344c8eccff1b36e6578) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ProBuilder Data/ProBuilderPreferences.asset using Guid(78966a906eb5c344c8eccff1b36e6578) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2281973fcf7d7061289b386588dfa45') in 0.0105242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/UI/UI-Hexagon.png
+  artifactKey: Guid(35da7ae976dc044cfbc62bec98db8ace) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/UI-Hexagon.png using Guid(35da7ae976dc044cfbc62bec98db8ace) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2673dbfc5a5b8b71e3867c57a968a670') in 0.0368854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scripts/Player/PlayerProjectileSpawner.cs
+  artifactKey: Guid(3ce361f7e09c84388b771df4abecd081) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Player/PlayerProjectileSpawner.cs using Guid(3ce361f7e09c84388b771df4abecd081) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62e0d8399f0d5e7d4fed059894cd0987') in 0.0115577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/ShaderGraphs/PBR_RoundGroundEmissionSpin_Graph.ShaderGraph
+  artifactKey: Guid(b31ebe9dcaf51464aa6a6ef636eb6f8e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShaderGraphs/PBR_RoundGroundEmissionSpin_Graph.ShaderGraph using Guid(b31ebe9dcaf51464aa6a6ef636eb6f8e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '239462c8b4469c9b4f6299af8d69131a') in 0.0111919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/ShaderGraphs/Shader Graphs_Unlit_Screen2_Graph.mat
+  artifactKey: Guid(1deecbd389d7c874eb38f13d560e7af3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShaderGraphs/Shader Graphs_Unlit_Screen2_Graph.mat using Guid(1deecbd389d7c874eb38f13d560e7af3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1d0db83457920956611854b924268b2') in 0.0141969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/VFX (Shared)/Materials/Flame_02_Alpha.mat
+  artifactKey: Guid(1c0de5d4eee18f549834c0fa2789fba6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Materials/Flame_02_Alpha.mat using Guid(1c0de5d4eee18f549834c0fa2789fba6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21d23e98d59cd59f18e62188c1280b4d') in 0.0161417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Environment/LightFittings/spotLight_A.fbx
+  artifactKey: Guid(edabcb8a131de441eadc3c1096494495) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/LightFittings/spotLight_A.fbx using Guid(edabcb8a131de441eadc3c1096494495) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75ef7492598c049bc0fbbac664692ec6') in 0.0308945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Environment/Shared/ReflectiveMaterial.mat
+  artifactKey: Guid(e6304bc04fc314e2f8e0c29c7d8217e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Shared/ReflectiveMaterial.mat using Guid(e6304bc04fc314e2f8e0c29c7d8217e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ced0b6ba40da7db7f00610bfa46bdc91') in 0.0142551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Gizmos/NavMeshSurface Icon.png
+  artifactKey: Guid(8cde3756fd9e8234890f3d06ea208b49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gizmos/NavMeshSurface Icon.png using Guid(8cde3756fd9e8234890f3d06ea208b49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0085b20f8e00a53468000d3a164f85ba') in 0.0303086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Audio/Enemy SFX/enemy_Spider_DestroyedExplosion.wav
+  artifactKey: Guid(1db35e64b68b5497198fcabf35486fdc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/Enemy SFX/enemy_Spider_DestroyedExplosion.wav using Guid(1db35e64b68b5497198fcabf35486fdc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0aa19825e6f8275f0bae99f4a829603') in 0.057238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/VFX (Shared)/Textures/MiddleGradient.png
+  artifactKey: Guid(bb809b935e1bed848a82557b832001c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Textures/MiddleGradient.png using Guid(bb809b935e1bed848a82557b832001c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c485f2e9258f74515dc20b9f3817135') in 0.0320069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/VFX (Shared)/Textures/Flame_01.psd
+  artifactKey: Guid(d7769c03e69abcc4590461f966f07d8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Textures/Flame_01.psd using Guid(d7769c03e69abcc4590461f966f07d8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8547ab5d1c33352e4bfc4ee97bc0efcd') in 0.0298256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/VFX (Shared)/Textures/Intense_Center.png
+  artifactKey: Guid(d17baf3b2c3189d4ebb0fcc5e1071558) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Textures/Intense_Center.png using Guid(d17baf3b2c3189d4ebb0fcc5e1071558) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b56e09557a38954fcad6bb9617d069ae') in 0.0322941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/VFX (Shared)/Materials/Smoke_03.mat
+  artifactKey: Guid(4d24b644e2e00144f954403d2d265f5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Materials/Smoke_03.mat using Guid(4d24b644e2e00144f954403d2d265f5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2b0f29c55320e71fbf4fb9c1dcfc666') in 0.0161333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/VFX (Shared)/Materials/Stone.mat
+  artifactKey: Guid(b6839b0077280184db09f53af3fcc932) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Materials/Stone.mat using Guid(b6839b0077280184db09f53af3fcc932) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '64318a3cc21fcd1f0671cb9cbb67c317') in 0.0157287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/VFX (Shared)/Textures/Particle_03.psd
+  artifactKey: Guid(9813463cf2e3c694885ed9ffe538bd6f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Textures/Particle_03.psd using Guid(9813463cf2e3c694885ed9ffe538bd6f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6f8218df29bd23ba85880034381d959') in 0.0329947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/VFX (Shared)/Textures/Lightning_01.png
+  artifactKey: Guid(9380918bebbca364daf10080b6cac706) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Textures/Lightning_01.png using Guid(9380918bebbca364daf10080b6cac706) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa926713d310e34f6073f7c14f28dccd') in 0.0296673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/VFX (Shared)/Textures/Particle_04.psd
+  artifactKey: Guid(1438e9d30f417f2469b09034275b7b92) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Textures/Particle_04.psd using Guid(1438e9d30f417f2469b09034275b7b92) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76614a3253c3761069b826d05f6ea48e') in 0.0322752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/VFX (Shared)/Materials/Particle_01.mat
+  artifactKey: Guid(2a8d19fb95badc144933626b65c06617) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Materials/Particle_01.mat using Guid(2a8d19fb95badc144933626b65c06617) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0aac65b9e45b3ec1e7f940534651d4e1') in 0.016249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/VFX (Shared)/Materials/Dark_Clouds.mat
+  artifactKey: Guid(b8e17b29de16a7b45a8766f25aaa7a59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Materials/Dark_Clouds.mat using Guid(b8e17b29de16a7b45a8766f25aaa7a59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af7dbc649a16d8ece801465bb03e2983') in 0.0143238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/VFX (Shared)/Textures/Glow_12.psd
+  artifactKey: Guid(3f7fa6779d70bf54cbdcdd8384ba9fed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Textures/Glow_12.psd using Guid(3f7fa6779d70bf54cbdcdd8384ba9fed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f2bf479b61d5af7d04be54bcc830acf') in 0.0384151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Prefabs/Particles/Particles_Bullet_Impact_Enemy_Prefab.prefab
+  artifactKey: Guid(3c6a9770554a2499da6dc5e68b870e15) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Particles/Particles_Bullet_Impact_Enemy_Prefab.prefab using Guid(3c6a9770554a2499da6dc5e68b870e15) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3644df73bc71a45b936050624ca2d8ff') in 0.0301059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VFX (Shared)/Materials/Smoke_01_Add(soft).mat
+  artifactKey: Guid(2ae7946bc87ce894d98e1743786dcd3e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Materials/Smoke_01_Add(soft).mat using Guid(2ae7946bc87ce894d98e1743786dcd3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55cc68bb0ee92b7f04a14a572b264099') in 0.0160454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefabs/UI/ScoreCanvas.prefab
+  artifactKey: Guid(22d993276ac624cf3b444113a4d9e19a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/UI/ScoreCanvas.prefab using Guid(22d993276ac624cf3b444113a4d9e19a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2f4dcdbe53e25d1c0c5daf76ba9cfb6') in 0.0314551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3d8e7ee6dd7d6a2d1f1189d0305e965') in 0.0103114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/VFX (Shared)/Materials/Particle_04.mat
+  artifactKey: Guid(2fe05ca5bf1f20543bf3d42b5af1e349) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Materials/Particle_04.mat using Guid(2fe05ca5bf1f20543bf3d42b5af1e349) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21f03c3d5ed8a840f5918d37e9fc5460') in 0.0158619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ShaderGraphs/HoseScrollExtrusion_Mat.mat
+  artifactKey: Guid(94875e59d5ca84a468115e2d343c81b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShaderGraphs/HoseScrollExtrusion_Mat.mat using Guid(94875e59d5ca84a468115e2d343c81b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60b6d301313b75e0f657740dbaa762a4') in 0.0147189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Resources/BillingMode.json
+  artifactKey: Guid(38e7865652dae47458cdb536667a757d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/BillingMode.json using Guid(38e7865652dae47458cdb536667a757d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c288cf6e94a845db6fc166d3dafa4e8') in 0.0106018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef
+  artifactKey: Guid(017d54a4af8529743a5878abc840a62c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef using Guid(017d54a4af8529743a5878abc840a62c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca44dfce6f5412e96d8ac1ebc7312f32') in 0.0105709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/ShaderGraphs/PBR_StrobingEmission_Graph.ShaderGraph
+  artifactKey: Guid(f2022dd2b9732d24a8183909b2695786) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShaderGraphs/PBR_StrobingEmission_Graph.ShaderGraph using Guid(f2022dd2b9732d24a8183909b2695786) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50bfbc4c8f745e0c21648638e657b6cf') in 0.0114258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/VFX (Shared)/Materials/Glow_12.mat
+  artifactKey: Guid(e96161427b1c1bd46a37ee0f2671c28d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Materials/Glow_12.mat using Guid(e96161427b1c1bd46a37ee0f2671c28d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '136e3cdcc96f64282a75236ea549d91f') in 0.0151882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/Utilities/ToggleCanvas.cs
+  artifactKey: Guid(0a26726284fa9324592f5048c8d0e969) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Utilities/ToggleCanvas.cs using Guid(0a26726284fa9324592f5048c8d0e969) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ab3c66c01e4da1dbb5eefae271b4e26') in 0.0122346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/ScriptableRenderPasses/XRay/BlurGrabPass.cs
+  artifactKey: Guid(6903b0d7f55d3c04185790306008d530) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ScriptableRenderPasses/XRay/BlurGrabPass.cs using Guid(6903b0d7f55d3c04185790306008d530) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '815f490e74564468340607400800c581') in 0.0106415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Audio/Projectile SFX/bullet_hit_metal_5.wav
+  artifactKey: Guid(489f0210bc6cd410b8e42df0ed51874d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/Projectile SFX/bullet_hit_metal_5.wav using Guid(489f0210bc6cd410b8e42df0ed51874d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '238684f95459c75b984f693f036df561') in 0.0589327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Environment/Displays/Textures/WallScreen_E.tga
+  artifactKey: Guid(6e782d816108047ccbd945dd69fd7ad4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Displays/Textures/WallScreen_E.tga using Guid(6e782d816108047ccbd945dd69fd7ad4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '952ced6e5cee1c9acd414f82f91d4114') in 0.0327029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/VFX (Shared)/Textures/Smoke_Order01.psd
+  artifactKey: Guid(08e598136e1a5da438d6dc855a863984) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Textures/Smoke_Order01.psd using Guid(08e598136e1a5da438d6dc855a863984) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '63271253c673941912d3b1718cf49d81') in 0.0319764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Characters/Player/Textures/Gun_E.tga
+  artifactKey: Guid(0e828117fd2e9dc4f8d5ca35890801df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/Player/Textures/Gun_E.tga using Guid(0e828117fd2e9dc4f8d5ca35890801df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '867b8993ea569427c9093f018367df26') in 0.031911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Characters/Player/Textures/Gun_D.tga
+  artifactKey: Guid(39f6f2891c3b39d44b9d18cb2ecc84d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/Player/Textures/Gun_D.tga using Guid(39f6f2891c3b39d44b9d18cb2ecc84d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44812ea88e6dda3df567ae5b3ab37f82') in 0.0295735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009750 seconds.
+  path: Assets/Characters/Player/Materials/Gun_Mat.mat
+  artifactKey: Guid(8f3b3f5dc8721614db31889d8f6ed90b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/Player/Materials/Gun_Mat.mat using Guid(8f3b3f5dc8721614db31889d8f6ed90b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac8816b1ce102ee2775724af29c1daa5') in 0.0137981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Characters/EnemySpider/Textures/EnemySpider_NRM.tga
+  artifactKey: Guid(3210c536e001e4de49b738e1b9306a14) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/EnemySpider/Textures/EnemySpider_NRM.tga using Guid(3210c536e001e4de49b738e1b9306a14) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52e5274a7cc3dfc1bcf3709cace7dd07') in 0.0334194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Environment/LightFittings/Materials/LightFakeVolumetrics_Mat.mat
+  artifactKey: Guid(87b92ea6874fc5a4a8ae256d3bd6e8b7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/LightFittings/Materials/LightFakeVolumetrics_Mat.mat using Guid(87b92ea6874fc5a4a8ae256d3bd6e8b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6034b6270192bca1d9c3c328844c5713') in 0.0140519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/VFX (Shared)/Materials/Smoke_Order02_Alpha.mat
+  artifactKey: Guid(6701bbeddcc17e64da8f4a96ee040192) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Materials/Smoke_Order02_Alpha.mat using Guid(6701bbeddcc17e64da8f4a96ee040192) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0693ab257457b259275c6b85103a7e0') in 0.0174574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Environment/Displays/Textures/WallScreen_D.tga
+  artifactKey: Guid(245b4eacceb7445d6a2d04b12c3cb298) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Displays/Textures/WallScreen_D.tga using Guid(245b4eacceb7445d6a2d04b12c3cb298) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2117e049a9b1046581a90c935a8ffece') in 0.0317111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Prefabs/Projectiles/Projectile_Bullet_Prefab.prefab
+  artifactKey: Guid(c4b4b81382c254a999d09f9375fbe2c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Projectiles/Projectile_Bullet_Prefab.prefab using Guid(c4b4b81382c254a999d09f9375fbe2c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2174add46e7cf69ba293ff4ea69c4010') in 0.0330697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 94
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/VFX (Shared)/Models/Cross_Plane_02.FBX
+  artifactKey: Guid(ec85be59b42dd574e9d31c8964d05cfb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Models/Cross_Plane_02.FBX using Guid(ec85be59b42dd574e9d31c8964d05cfb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88c12a931fa243d98fa5f380c6fa3a15') in 0.0300261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scripts/EnemySpider/EnemyHealth.cs
+  artifactKey: Guid(f89da95e9d5f4438b8a17587d0824ff4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/EnemySpider/EnemyHealth.cs using Guid(f89da95e9d5f4438b8a17587d0824ff4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '950825ac4f630d0a787c8acb11b4a60b') in 0.0130154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Audio/Projectile SFX/bullet_hit_metal_2.wav
+  artifactKey: Guid(964dc4ed1f4a74ca4b7def85b4c9af15) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/Projectile SFX/bullet_hit_metal_2.wav using Guid(964dc4ed1f4a74ca4b7def85b4c9af15) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a04c18f0b2dc92b41f4806a2e2ef590') in 0.0517627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Environment/Rocks/PerimeterRocks_A.fbx
+  artifactKey: Guid(f006ec061b9bbb84ab9cd130248b8405) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Rocks/PerimeterRocks_A.fbx using Guid(f006ec061b9bbb84ab9cd130248b8405) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4edc258368a5a459c09ca51aaa8dfbf1') in 0.0362685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Characters/EnemySpider/EnemySpider.fbx
+  artifactKey: Guid(6cc25772cddf45146953377498bcae80) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/EnemySpider/EnemySpider.fbx using Guid(6cc25772cddf45146953377498bcae80) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72e15d0c05eddc051a124f74fea19757') in 0.054009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 88
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Environment/Props/Screens/SmallScreen_1.fbx
+  artifactKey: Guid(b97e5c1fce17549f18b84ad729cc5967) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Screens/SmallScreen_1.fbx using Guid(b97e5c1fce17549f18b84ad729cc5967) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67b3e4f9735a1ae245b3cb968895ce6b') in 0.041306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Environment/Props/Screens/SmallScreen_6.fbx
+  artifactKey: Guid(c9f9f6df0ef184bb28b107e6f35b62a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Screens/SmallScreen_6.fbx using Guid(c9f9f6df0ef184bb28b107e6f35b62a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96b8344545c4644a4f74f0402f3a8e58') in 0.0328198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Environment/Props/Barrels/BarrelSmall.fbx
+  artifactKey: Guid(45598f28277bf41898f48b19e553d2fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Barrels/BarrelSmall.fbx using Guid(45598f28277bf41898f48b19e553d2fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f66f4803747bc08d2f4ca5e0b9e404a') in 0.0312734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Environment/Props/Tables/LightTrimTable_1.fbx
+  artifactKey: Guid(d45ffad89fb5d455d8e4ef2c2113c465) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Tables/LightTrimTable_1.fbx using Guid(d45ffad89fb5d455d8e4ef2c2113c465) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f59461d8c5a9898827c2cd629142f71a') in 0.0344319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/VFX (Shared)/Materials/Cross_Plane_02.mat
+  artifactKey: Guid(b884480d9bc01464dba92a116bcf7736) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Materials/Cross_Plane_02.mat using Guid(b884480d9bc01464dba92a116bcf7736) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9562c9c25fc350d6873d4372a70b81bd') in 0.0138864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Environment/Props/Tables/ConferenceTable.fbx
+  artifactKey: Guid(ded0ecdfd47d14498864d5356fdea0fb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Tables/ConferenceTable.fbx using Guid(ded0ecdfd47d14498864d5356fdea0fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1c3f41424f25377bbaa40ed4a9af153') in 0.0357922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VFX (Shared)/Materials/Flame_01.mat
+  artifactKey: Guid(ea1c516a929be064383591b939e289f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Materials/Flame_01.mat using Guid(ea1c516a929be064383591b939e289f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '611b04706dfae7535126926efb1db1b3') in 0.0144394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Environment/Props/CompanyHologram/Plane.fbx
+  artifactKey: Guid(e7a62e43c54d44bd78af31fe1202ce68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/CompanyHologram/Plane.fbx using Guid(e7a62e43c54d44bd78af31fe1202ce68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c539608f692d428718798a28310e3ee') in 0.0326436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/VFX (Shared)/Materials/Refraction_LWRP.mat
+  artifactKey: Guid(213f2fc812ef46f41b165338dde4a2d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Materials/Refraction_LWRP.mat using Guid(213f2fc812ef46f41b165338dde4a2d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f90b1ada6c296ae90659b594d1c681e2') in 0.0124727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Environment/Rocks/InteriorRocks_A.fbx
+  artifactKey: Guid(54aa74597a4c34d4d8ce4c4b9b0da35e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Rocks/InteriorRocks_A.fbx using Guid(54aa74597a4c34d4d8ce4c4b9b0da35e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f55eb2264670b6ba69cfc16c85d9d2be') in 0.0468187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Environment/Displays/Textures/WallScreen_M.tga
+  artifactKey: Guid(25822bbe8193d4c89bfd61c305e793c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Displays/Textures/WallScreen_M.tga using Guid(25822bbe8193d4c89bfd61c305e793c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c4d328979107eaa5cf8535643deda3bc') in 0.0378437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Environment/LightFittings/standingLight_A.fbx
+  artifactKey: Guid(9c9f9a99e42fa46ba85fe95b651509bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/LightFittings/standingLight_A.fbx using Guid(9c9f9a99e42fa46ba85fe95b651509bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '773b829218bf3567e7637f9680d7ce85') in 0.0324147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/NavMeshComponents/Scripts/NavMeshModifier.cs
+  artifactKey: Guid(932e86212e275a54b8e06dbe0115f6f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/NavMeshComponents/Scripts/NavMeshModifier.cs using Guid(932e86212e275a54b8e06dbe0115f6f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ed39792292c89471682cfa4ad8a8d52') in 0.0150396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Skyboxes/EmptyHorizon/EmptyHorizonSky.mat
+  artifactKey: Guid(22b5117545d774b5cb61a7808c5123ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Skyboxes/EmptyHorizon/EmptyHorizonSky.mat using Guid(22b5117545d774b5cb61a7808c5123ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd75c0a7992529bce954a0519861aa1d2') in 0.0241487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Characters/EnemySpider/Textures/EnemySpider_M.tga
+  artifactKey: Guid(b916745fa5f8b4075b7d562751ca4e9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/EnemySpider/Textures/EnemySpider_M.tga using Guid(b916745fa5f8b4075b7d562751ca4e9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '517c7da95aae28f72109b6d4470abea5') in 0.0379424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Characters/Player/Textures/Player_NRM.tga
+  artifactKey: Guid(b69285a77d53f4140ae7008c7d57b0b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/Player/Textures/Player_NRM.tga using Guid(b69285a77d53f4140ae7008c7d57b0b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26d552f7969c62bb5bec5f7e410d67ed') in 0.0451925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/VFX (Shared)/Materials/Refraction_BuiltIn.mat
+  artifactKey: Guid(78cfc3bd1dd7b0848a53d2dc90387fbe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Materials/Refraction_BuiltIn.mat using Guid(78cfc3bd1dd7b0848a53d2dc90387fbe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f65fb46a36a5afd38593a90acb6d9a84') in 0.0140311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Environment/Shared/Materials/Glass_Mat.mat
+  artifactKey: Guid(b96338086cfbf9947a5573676b03dc85) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Shared/Materials/Glass_Mat.mat using Guid(b96338086cfbf9947a5573676b03dc85) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef420279e359f87a85a8b47da4ebe9d6') in 0.0143564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Environment/Rocks/Textures/CliffRock_B_M.tga
+  artifactKey: Guid(e59e1ec5c9f868b4a9140242e1691b91) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Rocks/Textures/CliffRock_B_M.tga using Guid(e59e1ec5c9f868b4a9140242e1691b91) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53e84a66632cbcfd120b964d71614762') in 0.0346654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Environment/Shared/Textures/Large_red_M.tga
+  artifactKey: Guid(769c2eb32f48c394a9f233f5117e5728) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Shared/Textures/Large_red_M.tga using Guid(769c2eb32f48c394a9f233f5117e5728) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90df8ee7508975958dcaf69456bcd587') in 0.0372988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Environment/Shared/Materials/LightShard_Mat.mat
+  artifactKey: Guid(ac580520b39ed4bb292e8f49dd2b6726) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Shared/Materials/LightShard_Mat.mat using Guid(ac580520b39ed4bb292e8f49dd2b6726) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d51795c923b47d7cc0f58d606087d05') in 0.016017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Environment/Shared/Materials/ScaffoldingGeometry_Mat.mat
+  artifactKey: Guid(dcf71f4ca8bbff64fba7ecd82b7b3c5d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Shared/Materials/ScaffoldingGeometry_Mat.mat using Guid(dcf71f4ca8bbff64fba7ecd82b7b3c5d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd64c2f846c497b4784dbef54d718edf8') in 0.0181221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Environment/Shared/Textures/Large_red_N.tga
+  artifactKey: Guid(02e4a719219007c4baf93044a83743ae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Shared/Textures/Large_red_N.tga using Guid(02e4a719219007c4baf93044a83743ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aeadfe3de6faad15ec74d025847ced1f') in 0.0337417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Environment/Shared/Textures/Large_red_E.tga
+  artifactKey: Guid(6be32201e9b2f0647b4f56a6c54aaefb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Shared/Textures/Large_red_E.tga using Guid(6be32201e9b2f0647b4f56a6c54aaefb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '564a352fce1f58bd394ef6749e914954') in 0.0339963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Environment/Rocks/Textures/CliffRock_B_NRM.tga
+  artifactKey: Guid(0d21b964d29426144b6f23eb1c8d9c60) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Rocks/Textures/CliffRock_B_NRM.tga using Guid(0d21b964d29426144b6f23eb1c8d9c60) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ceac6a2328c0ca2616896b194d388456') in 0.0308152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Environment/Shared/Textures/ScaffoldingGeometry_D.tga
+  artifactKey: Guid(d6ada7ec0b7939040a30129daead0e4b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Shared/Textures/ScaffoldingGeometry_D.tga using Guid(d6ada7ec0b7939040a30129daead0e4b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54d3246a7d676e4e95efedcdd21b67c9') in 0.032874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/VFX (Shared)/Textures/Lightning_02.png
+  artifactKey: Guid(7d42c0cbf312c0047a37d536131e8c24) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Textures/Lightning_02.png using Guid(7d42c0cbf312c0047a37d536131e8c24) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9300212c6e1aed149edc7949f14ea28') in 0.0329042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/NavMeshComponents/Scripts/NavMeshModifierVolume.cs
+  artifactKey: Guid(64d7f482c2b73ce48b315d3729c57ad4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/NavMeshComponents/Scripts/NavMeshModifierVolume.cs using Guid(64d7f482c2b73ce48b315d3729c57ad4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b645681a663a643f43ee0d6f9391e506') in 0.0132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Environment/Props/Screens/WallScreen.fbx
+  artifactKey: Guid(9fc371b6c0c7846128edc9adcbd10502) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Screens/WallScreen.fbx using Guid(9fc371b6c0c7846128edc9adcbd10502) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa0ab60b562d5e1ba9de74c06ac517d0') in 0.0434156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Environment/Props/Chairs/corporateChair.fbx
+  artifactKey: Guid(8552ee60811d04705aac040f5a6eb80d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Chairs/corporateChair.fbx using Guid(8552ee60811d04705aac040f5a6eb80d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78b7ba26d435215157dc0b116e486bed') in 0.0312603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Characters/Player/Textures/Gun_NRM.tga
+  artifactKey: Guid(6de4cfb46a8b12741be9871f32ca74d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/Player/Textures/Gun_NRM.tga using Guid(6de4cfb46a8b12741be9871f32ca74d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2fa10df95869f4d003b2f42ac33606a') in 0.031326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Environment/Rocks/Materials/CliffRock_C_Mat.mat
+  artifactKey: Guid(4d9f88fe2aeb59542bb7dd9fd1539fd4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Rocks/Materials/CliffRock_C_Mat.mat using Guid(4d9f88fe2aeb59542bb7dd9fd1539fd4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1625083caf8a478fc8cab867a343a53') in 0.0147088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Environment/Props/Screens/SmallScreen_9.fbx
+  artifactKey: Guid(84414ec66524443a8a2cd4c1f581dd00) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Screens/SmallScreen_9.fbx using Guid(84414ec66524443a8a2cd4c1f581dd00) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '405e6456751111a1e1c155022ce06188') in 0.0352584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Environment/Rocks/Textures/CliffRock_A_M.tga
+  artifactKey: Guid(14734b0cb1b59f5429faf145494d2fde) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Rocks/Textures/CliffRock_A_M.tga using Guid(14734b0cb1b59f5429faf145494d2fde) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9795394be85294671e20cc7c973322ce') in 0.0378169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Environment/Props/Screens/SmallScreen_2.fbx
+  artifactKey: Guid(f2e9da7d822a940749e1333bfe091398) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Screens/SmallScreen_2.fbx using Guid(f2e9da7d822a940749e1333bfe091398) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '435c3deb99acc4cff8b318dd58bdafbc') in 0.0381408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Environment/Props/Cannister_Prefab.prefab
+  artifactKey: Guid(23e582bb536c8d34ea3d78932b55e0c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Environment/Props/Cannister_Prefab.prefab using Guid(23e582bb536c8d34ea3d78932b55e0c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '196c4b6445f5c591f073309acb291636') in 0.0267951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Environment/StructuralElements/Pipes/small_red.fbx
+  artifactKey: Guid(ab3e397c3ac7bc44586c54bc6896e990) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/StructuralElements/Pipes/small_red.fbx using Guid(ab3e397c3ac7bc44586c54bc6896e990) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cecc3746b359ed1df081c2e7c7f33de') in 0.0338815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/Environment/Props/Barrel_Large_Prefab.prefab
+  artifactKey: Guid(1e1895458e9ebb34981f849e2637e6c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Environment/Props/Barrel_Large_Prefab.prefab using Guid(1e1895458e9ebb34981f849e2637e6c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fdbe40b75d841020155e154a11ef6229') in 0.0193984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Environment/Props/Chair_Curved_Prefab.prefab
+  artifactKey: Guid(293ca0ac276694e42863c570c2ffe58e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Environment/Props/Chair_Curved_Prefab.prefab using Guid(293ca0ac276694e42863c570c2ffe58e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7da13f0e209c60b2bc57a2c427192e7b') in 0.0191264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/Environment/Railings/Railing_3_Prefab.prefab
+  artifactKey: Guid(7bf54434afca562418df2bf93c9f2a0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Environment/Railings/Railing_3_Prefab.prefab using Guid(7bf54434afca562418df2bf93c9f2a0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2453308779ed5e450b907a8ad8a9c6be') in 0.0219758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Environment/Props/Crate_Small_Prefab.prefab
+  artifactKey: Guid(6af474b2bb7856f42b3770db7307f674) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Environment/Props/Crate_Small_Prefab.prefab using Guid(6af474b2bb7856f42b3770db7307f674) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7a5663b4f81383fbd646968850662d7') in 0.0191015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/Environment/Railings/Railing_8_Prefab.prefab
+  artifactKey: Guid(98c779a00a5b9894a95e330fbeef010a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Environment/Railings/Railing_8_Prefab.prefab using Guid(98c779a00a5b9894a95e330fbeef010a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3bb6973b794d6fd4caf1971fa5c4d68') in 0.0206823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Environment/StructuralElements/Scaffold/scaffoldBase.fbx
+  artifactKey: Guid(420f217a8b3ed492ab293a988487b8dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/StructuralElements/Scaffold/scaffoldBase.fbx using Guid(420f217a8b3ed492ab293a988487b8dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08a4a5c6370c4cb746557189ddeeee73') in 0.0336247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Environment/StructuralElements/Railings/railingCorporate-6.fbx
+  artifactKey: Guid(bd337d3f68d4c41e18283eb8fe9c2d01) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/StructuralElements/Railings/railingCorporate-6.fbx using Guid(bd337d3f68d4c41e18283eb8fe9c2d01) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '587476631fb8154715a730d2317f9bc8') in 0.0320372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Environment/StructuralElements/Scaffold/Scaffold_A.fbx
+  artifactKey: Guid(09b1cfa7d25ec4f05816e2cf1c125d65) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/StructuralElements/Scaffold/Scaffold_A.fbx using Guid(09b1cfa7d25ec4f05816e2cf1c125d65) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be6deb1f020b905f03745c1f93793d24') in 0.0349486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/Environment/Props/Barrel_Small_Prefab.prefab
+  artifactKey: Guid(eb19b1ce43d3589419e01e95fa2dec56) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Environment/Props/Barrel_Small_Prefab.prefab using Guid(eb19b1ce43d3589419e01e95fa2dec56) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e70a1f91417beeef2d3f1bf0462a977') in 0.0197764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/VFX (Shared)/Textures/Smoke_03.psd
+  artifactKey: Guid(d20388be3bbb40148b57d2f1dd1ec48b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Textures/Smoke_03.psd using Guid(d20388be3bbb40148b57d2f1dd1ec48b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb729f4f8503a5f9c2c843ceefe93a5d') in 0.0281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Prefabs/Environment/Railings/Railing_4_Prefab.prefab
+  artifactKey: Guid(4e3bbe79765620f4199c07cb9a50ce3a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Environment/Railings/Railing_4_Prefab.prefab using Guid(4e3bbe79765620f4199c07cb9a50ce3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '335436ca312a3b69deb4e25b3d1b0e70') in 0.0181693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Environment/StructuralElements/RoundGround/RoundGround_A.FBX
+  artifactKey: Guid(f10c2a5b334f34e46823e699c30f27a7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/StructuralElements/RoundGround/RoundGround_A.FBX using Guid(f10c2a5b334f34e46823e699c30f27a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec24577aac3c343fb4ab261087d3da2c') in 0.0311674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Environment/Props/Barrels/BarrelLarge.fbx
+  artifactKey: Guid(d452d7106a4f94942b0bff73634c1727) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Barrels/BarrelLarge.fbx using Guid(d452d7106a4f94942b0bff73634c1727) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e072c832e396e135e9697ed2ddb5226') in 0.0326849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Environment/Props/Screens/SmallScreenBroken.fbx
+  artifactKey: Guid(c1044486dafb9410d826d825d63fb140) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Screens/SmallScreenBroken.fbx using Guid(c1044486dafb9410d826d825d63fb140) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '760c5c94e512f9cc9ebd9a1291626711') in 0.0314216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Environment/LightFittings/Materials/LightTrim_Mat.mat
+  artifactKey: Guid(bcd3010ac379b8042a5944e0011ba2c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/LightFittings/Materials/LightTrim_Mat.mat using Guid(bcd3010ac379b8042a5944e0011ba2c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89b279a1a2f03e6218110b4e5da8416a') in 0.0159286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Environment/Rocks/Textures/Rock.tga
+  artifactKey: Guid(9325395a20170894caa995fbc82a877f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Rocks/Textures/Rock.tga using Guid(9325395a20170894caa995fbc82a877f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '551ac07506684d4407718c930effa0e3') in 0.0346301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '630da8eab53793b2f6bb09028c489da7') in 0.0124331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Scenes/Scenes/_CompletedLevel/LightingData.asset
+  artifactKey: Guid(c1ca7d14d7f0a354ebd29cf6d921ee35) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Scenes/_CompletedLevel/LightingData.asset using Guid(c1ca7d14d7f0a354ebd29cf6d921ee35) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4b896fc65565a6aa3b3339bbee565ce') in 0.0140268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d39f313eb462f9f812f30b20d85c331') in 0.0145907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Scenes/Scenes/_CompletedLevel/NavMesh-Environment.asset
+  artifactKey: Guid(656fc6ee9979ffc46ab88bf101b1eb8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Scenes/_CompletedLevel/NavMesh-Environment.asset using Guid(656fc6ee9979ffc46ab88bf101b1eb8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8940508e85b553586b984035e9f3747e') in 0.0179485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd86797537d05fe57a40563cdfabd5f9c') in 0.0205903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56c90d2204a81724aa338b028d7f2dcf') in 0.0241142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Scenes/_CompletedLevel/ReflectionProbe-1.exr
+  artifactKey: Guid(02261ec152f4e6a4c9a538719de49f36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Scenes/_CompletedLevel/ReflectionProbe-1.exr using Guid(02261ec152f4e6a4c9a538719de49f36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb4e81828b292b55ba5a1e4f5a942239') in 0.0333963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Prefabs/Environment/Tunnels/ExteriorDoor_Short_Prefab.prefab
+  artifactKey: Guid(e2639f6fc0aa4d148825181d3d411b66) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Environment/Tunnels/ExteriorDoor_Short_Prefab.prefab using Guid(e2639f6fc0aa4d148825181d3d411b66) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c81aa5e8709c317e86aaf04db4270d49') in 0.013848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'edba14c5d1474d333576735fbe696e1e') in 0.0143581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '70fa7129fab3113042063d30f20821a1') in 0.0135859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ea03e956aa845aec97717f688b432de') in 0.0188886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Environment/Props/Crates/CrateMedium.fbx
+  artifactKey: Guid(092e9d56fb9244dda841bd41e5fb9677) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Crates/CrateMedium.fbx using Guid(092e9d56fb9244dda841bd41e5fb9677) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3401447062b674f9ee0e1c329c1a07e') in 0.0396356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/Scenes/_CompletedLevel/ReflectionProbe-4.exr
+  artifactKey: Guid(55c464bcff2a7d84f8e04dcc0b7a4dca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Scenes/_CompletedLevel/ReflectionProbe-4.exr using Guid(55c464bcff2a7d84f8e04dcc0b7a4dca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1cab890439cf1c088a725e9947edc763') in 0.0258267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Environment/StructuralElements/Railings/railingCorporate-3.fbx
+  artifactKey: Guid(360794152bd6e44f98de75ac18e84040) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/StructuralElements/Railings/railingCorporate-3.fbx using Guid(360794152bd6e44f98de75ac18e84040) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a694f9a43c37abf551803de4597ff788') in 0.0333541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Environment/Props/Screens/SmallScreen_8.fbx
+  artifactKey: Guid(0b90860885ace479d95d6eea93d0e64b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Screens/SmallScreen_8.fbx using Guid(0b90860885ace479d95d6eea93d0e64b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3215c455b30e36f743d16c65e44e3214') in 0.0318377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Environment/Props/RespawnChamber/RespawnChamber.fbx
+  artifactKey: Guid(943d3e71e82e247b5ba122fd78e0c215) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/RespawnChamber/RespawnChamber.fbx using Guid(943d3e71e82e247b5ba122fd78e0c215) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b51d94e613c585adff80a0a6d3972b01') in 0.0321232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Environment/Shared/Textures/Stripes.psd
+  artifactKey: Guid(8f127a8df03754bb9bc30c6c1cb78d31) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Shared/Textures/Stripes.psd using Guid(8f127a8df03754bb9bc30c6c1cb78d31) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ce92836b61dc7b1abf129855a0a5408') in 0.033247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Environment/Rocks/Textures/RockDetail_NRM.tga
+  artifactKey: Guid(69ed2635bcbf305478eb07d2d038f4aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Rocks/Textures/RockDetail_NRM.tga using Guid(69ed2635bcbf305478eb07d2d038f4aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7a4b2bf9e4b87e42a1dd017c4c194b4') in 0.0317026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Environment/Rocks/Textures/CliffRock_A_NRM.tga
+  artifactKey: Guid(2225fcc0b98ce0f4894954a3309e11d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Rocks/Textures/CliffRock_A_NRM.tga using Guid(2225fcc0b98ce0f4894954a3309e11d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d7aa21d0f647875b8aa1fcaf93e4611') in 0.0395841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Environment/Shared/Textures/ScaffoldingGeometry_E.tga
+  artifactKey: Guid(ff9a0a30fd3f9ee4d8783befc4e8aad4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Shared/Textures/ScaffoldingGeometry_E.tga using Guid(ff9a0a30fd3f9ee4d8783befc4e8aad4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '619e4c9fa639464af7e48ad68c299a82') in 0.0449852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Environment/Props/Barrels/Textures/BarrelLarge_D.tga
+  artifactKey: Guid(e502b37a66ba3de489d0c5e618905f1f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Barrels/Textures/BarrelLarge_D.tga using Guid(e502b37a66ba3de489d0c5e618905f1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db078f8a1ade21961529241cda5989ab') in 0.0355347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Environment/Doors/ExteriorDoor/Textures/exterior_door_B_NRM.tga
+  artifactKey: Guid(7d8dc1d5a53ea6542b2e9cc3e461eb7e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Doors/ExteriorDoor/Textures/exterior_door_B_NRM.tga using Guid(7d8dc1d5a53ea6542b2e9cc3e461eb7e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1f38b2d02bdd9e1a37daa2587b97f3f') in 0.0366441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Environment/Props/Barrels/Textures/BarrelSmall_D.tga
+  artifactKey: Guid(df90e259c7f509147aee06e6c649baaf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Barrels/Textures/BarrelSmall_D.tga using Guid(df90e259c7f509147aee06e6c649baaf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8159f4a18c382a75f19b5cd86c341dde') in 0.0327645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Environment/Props/Barrels/Materials/Cannister_mAT.mat
+  artifactKey: Guid(cee145c3490923c419e16496047bd7f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Barrels/Materials/Cannister_mAT.mat using Guid(cee145c3490923c419e16496047bd7f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd287208b43f2def748785458a8e11eca') in 0.0173491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Environment/Props/Barrels/Materials/BarrelLarge_Mat.mat
+  artifactKey: Guid(d27243a04110c514da89620d9f746501) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Barrels/Materials/BarrelLarge_Mat.mat using Guid(d27243a04110c514da89620d9f746501) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1af7d6463799607879f12a9456156bb5') in 0.0177379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Environment/Doors/SlidingDoor/Textures/SlidingDoorFrame_D.tga
+  artifactKey: Guid(39a25eca9efb9b04986cb9469b9342e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Doors/SlidingDoor/Textures/SlidingDoorFrame_D.tga using Guid(39a25eca9efb9b04986cb9469b9342e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '632c491040712fa332fa7c568830af27') in 0.0387073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Environment/Props/CompanyHologram/Materials/LogoHologram_Mat.mat
+  artifactKey: Guid(6650b09c16e594007bfed146f9c555e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/CompanyHologram/Materials/LogoHologram_Mat.mat using Guid(6650b09c16e594007bfed146f9c555e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43f22599247b74bc78a0a5191c781d30') in 0.0273204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Environment/Props/Barrels/Textures/BarrelSmall_M.tga
+  artifactKey: Guid(b4ef4839280968e41a69ab78aeb5a8f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Barrels/Textures/BarrelSmall_M.tga using Guid(b4ef4839280968e41a69ab78aeb5a8f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa454849fc6b5f9a113e822ec5127bfd') in 0.0402158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Environment/Doors/SlidingDoor/Textures/SlidingDoor_NRM.tga
+  artifactKey: Guid(13d8db17d72efa94e9c9c28fa4932cdb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Doors/SlidingDoor/Textures/SlidingDoor_NRM.tga using Guid(13d8db17d72efa94e9c9c28fa4932cdb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ace2ac7b813cb826d7b69e8f9abc23a3') in 0.0394473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Environment/Doors/SlidingDoor/Textures/SlidingDoorFrame_E.tga
+  artifactKey: Guid(1dfef936c60c6b14987a36205eb2a17c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Doors/SlidingDoor/Textures/SlidingDoorFrame_E.tga using Guid(1dfef936c60c6b14987a36205eb2a17c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2698377be53fbbb7250a309e9362f4c') in 0.032191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Environment/Props/Barrels/Textures/Cannister_E.png
+  artifactKey: Guid(f9fc5ccf2aee3624c9e1b7da9cb65fe1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Barrels/Textures/Cannister_E.png using Guid(f9fc5ccf2aee3624c9e1b7da9cb65fe1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b30495b4713c45afc1fe305c4d246275') in 0.0336149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Characters/EnemySpider/Animations/EnemySpider_Right.fbx
+  artifactKey: Guid(f74ffab2d2bf73540b9dcdf05988a811) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/EnemySpider/Animations/EnemySpider_Right.fbx using Guid(f74ffab2d2bf73540b9dcdf05988a811) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6483099ecdf560959fbc67e46e8c778c') in 0.0700007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 190
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fonts/Original/Klavika-Medium.otf
+  artifactKey: Guid(77c5d7085b9654d0b986d0d49a5c7ab0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/Original/Klavika-Medium.otf using Guid(77c5d7085b9654d0b986d0d49a5c7ab0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '98b8a17a075b0bea76ba184d90b1c26a') in 0.026707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Environment/StructuralElements/Hoses/Hose_B.fbx
+  artifactKey: Guid(b528da15f607549a69439773a9f2a66c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/StructuralElements/Hoses/Hose_B.fbx using Guid(b528da15f607549a69439773a9f2a66c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f2adf127dbd835d1382bb5037170442') in 0.0348775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Environment/Props/Crates/Textures/crateSmall_D.tga
+  artifactKey: Guid(e0ea19758e5cf3640a00b8ca130539c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Crates/Textures/crateSmall_D.tga using Guid(e0ea19758e5cf3640a00b8ca130539c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0675ea8c78520e32fefcfd51e2fcd752') in 0.1530141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Environment/Props/Tables/Materials/ConferenceTable_Mat.mat
+  artifactKey: Guid(ae7181454c373dc4d96f4d779f0a3a64) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Tables/Materials/ConferenceTable_Mat.mat using Guid(ae7181454c373dc4d96f4d779f0a3a64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2a70257e8ab78587aa2f89a863f0657') in 0.0167866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Environment/Props/Crates/Textures/crateLarge_M.tga
+  artifactKey: Guid(3d5c0e0e4e52cf44e96a6e696659f4a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Crates/Textures/crateLarge_M.tga using Guid(3d5c0e0e4e52cf44e96a6e696659f4a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ee9674795b19f69676115d3ca6ee467') in 0.0335801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Environment/Props/Plants/Materials/Plant_Mat.mat
+  artifactKey: Guid(063dd7adea745744099bbc846cce35ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Plants/Materials/Plant_Mat.mat using Guid(063dd7adea745744099bbc846cce35ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f183c4857c737dceb26b3ad8c541576e') in 0.0142519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Environment/Props/Screens/Materials/SmallScreen_8-lambert2.mat
+  artifactKey: Guid(e2cd7b3a135da4375b890d118d460f5c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Screens/Materials/SmallScreen_8-lambert2.mat using Guid(e2cd7b3a135da4375b890d118d460f5c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84860b41eea85222666c9ed63aafe4b1') in 0.0155832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Environment/Props/Crates/Textures/crateSmall_M.tga
+  artifactKey: Guid(6ce932f4559a33148bbb32df74b0afcf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Crates/Textures/crateSmall_M.tga using Guid(6ce932f4559a33148bbb32df74b0afcf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d3efa1365f6f4fad42f5f480fc5eccd') in 0.0341957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Environment/Props/CompanyHologram/Textures/LogoHoloGram_NRM.tga
+  artifactKey: Guid(24fdd13f02b483b4aa271fce74889542) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/CompanyHologram/Textures/LogoHoloGram_NRM.tga using Guid(24fdd13f02b483b4aa271fce74889542) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df8a822183a6fcd2a4c8766ddc3266d7') in 0.03695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Environment/StructuralElements/Hoses/HoseReceiver.fbx
+  artifactKey: Guid(8da6903afafa54bde9ab1cef99dbadc1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/StructuralElements/Hoses/HoseReceiver.fbx using Guid(8da6903afafa54bde9ab1cef99dbadc1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3771fd9782a37b59c15a414d4b139021') in 0.0335245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/VFX (Shared)/Textures/Stone.psd
+  artifactKey: Guid(aaa7837d8727a8141846fc0b4c8962cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Textures/Stone.psd using Guid(aaa7837d8727a8141846fc0b4c8962cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66619d044b4954aeace6b8fc92c12d2e') in 0.0428207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Environment/Props/Screens/Textures/WallScreen_D.tga
+  artifactKey: Guid(9236c5320d4fb344ea9d516fc9df0888) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Screens/Textures/WallScreen_D.tga using Guid(9236c5320d4fb344ea9d516fc9df0888) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9cba5f77d4c7bc768827ba0e6a3b6bb3') in 0.0332553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Environment/Doors/ExteriorDoor/Textures/exterior_door_B_M.tga
+  artifactKey: Guid(94d22dcad4eface4d8721ddfa38088cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Doors/ExteriorDoor/Textures/exterior_door_B_M.tga using Guid(94d22dcad4eface4d8721ddfa38088cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28ccdcc8aa177fabd6a320c0e0bdadcc') in 0.0336937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Environment/Props/Barrels/Textures/Cannister_D.png
+  artifactKey: Guid(4a29bee018ff19a47b393dbfe474e33a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Barrels/Textures/Cannister_D.png using Guid(4a29bee018ff19a47b393dbfe474e33a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec4bde3c0814293ca4752091ccb84cf6') in 0.0342355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Environment/Props/Crates/Materials/CrateMedium_Mat.mat
+  artifactKey: Guid(44f9b22d3138c394f9bf02e7ea6aab35) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Crates/Materials/CrateMedium_Mat.mat using Guid(44f9b22d3138c394f9bf02e7ea6aab35) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a95cfbf3b759dbae5f6e6d0659a37956') in 0.0155127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Environment/Props/Tables/Textures/Enemy table_D.tga
+  artifactKey: Guid(a94da95e87981404985916d0aa1bc95a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Tables/Textures/Enemy table_D.tga using Guid(a94da95e87981404985916d0aa1bc95a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c1431d60c55e08ab5867fd21350b73d') in 0.0315098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Prefabs/Environment/Decoration/Scaffolding/Scaffold_Long_Prefab.prefab
+  artifactKey: Guid(14e4931ed5a71a14ab1ddb4f674667f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Environment/Decoration/Scaffolding/Scaffold_Long_Prefab.prefab using Guid(14e4931ed5a71a14ab1ddb4f674667f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4cc3154f4e04ffda313ee752b05b8add') in 0.0200821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Environment/StructuralElements/Layout/Textures/MetalPlating_D.tga
+  artifactKey: Guid(a89fb64b9eef9834c9ff69b067e3e887) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/StructuralElements/Layout/Textures/MetalPlating_D.tga using Guid(a89fb64b9eef9834c9ff69b067e3e887) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1650ff1598627250ce7c2df475105c4') in 0.034049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Environment/StructuralElements/Hoses/Textures/Babel_Pipe_02_NRM.tga
+  artifactKey: Guid(4d6e5dc1f5d391746a3dcb47fc37d21f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/StructuralElements/Hoses/Textures/Babel_Pipe_02_NRM.tga using Guid(4d6e5dc1f5d391746a3dcb47fc37d21f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca971c3f3099d87d2042678c8022231e') in 0.0317197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Environment/Props/Tables/Textures/conferenceTable_N.tga
+  artifactKey: Guid(84b2e8d6de2c31243aedf59ad429543e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Tables/Textures/conferenceTable_N.tga using Guid(84b2e8d6de2c31243aedf59ad429543e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '15bb019bc26d5b95b9197d53a8e1d882') in 0.034897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Environment/Props/Tables/Textures/Enemy table_M.tga
+  artifactKey: Guid(fc20853523fddc74f8f9a7a7f1c72771) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Tables/Textures/Enemy table_M.tga using Guid(fc20853523fddc74f8f9a7a7f1c72771) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '445e4127b2870236dd590a2975310d8f') in 0.0320539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Environment/StructuralElements/Layout/Materials/LayoutFWall02_Mat.mat
+  artifactKey: Guid(74e17c4291c1d7b498a807ad2c98d5e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/StructuralElements/Layout/Materials/LayoutFWall02_Mat.mat using Guid(74e17c4291c1d7b498a807ad2c98d5e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3c34bbb5713d0c4a035137209713c7a') in 0.0174669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Environment/Props/Tables/Materials/LightTrimTable_Mat.mat
+  artifactKey: Guid(d441279c60c5049c1893a7aef984aa40) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Tables/Materials/LightTrimTable_Mat.mat using Guid(d441279c60c5049c1893a7aef984aa40) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '73ec6024b9445c05fd21c39e47af3253') in 0.0132015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Prefabs/Environment/Decoration/Pipes/Pipe_Red_Long_Prefab.prefab
+  artifactKey: Guid(c4ba7119099ebda49b58a911e944f9d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Environment/Decoration/Pipes/Pipe_Red_Long_Prefab.prefab using Guid(c4ba7119099ebda49b58a911e944f9d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eade3b29e871ea477d174c4cb45e3b68') in 0.0171222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Environment/StructuralElements/Layout/Materials/LayoutFloor_Mat.mat
+  artifactKey: Guid(9e7b8eab6ab56ee4fbfad4a55a6588ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/StructuralElements/Layout/Materials/LayoutFloor_Mat.mat using Guid(9e7b8eab6ab56ee4fbfad4a55a6588ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9123a6a8f166898807aa736e05e52240') in 0.0153785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Environment/StructuralElements/Railings/Textures/Railings_M.tga
+  artifactKey: Guid(e177e83be7d86f1448af7f164efb0a71) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/StructuralElements/Railings/Textures/Railings_M.tga using Guid(e177e83be7d86f1448af7f164efb0a71) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2c2f88a7f94b4db2f9ac3d1e4f2c36d') in 0.03201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Environment/Props/Tables/Textures/AdditiveSheet.psd
+  artifactKey: Guid(22722767589214d4a87adc0ab8a6c081) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Tables/Textures/AdditiveSheet.psd using Guid(22722767589214d4a87adc0ab8a6c081) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c8f946373c5d0580e6d6a85b25e914e') in 0.0385536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Prefabs/Environment/Decoration/Lights/Light_Trim_Table_Prefab.prefab
+  artifactKey: Guid(385f24c7400cafc4caa88cf6a39cbfd2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Environment/Decoration/Lights/Light_Trim_Table_Prefab.prefab using Guid(385f24c7400cafc4caa88cf6a39cbfd2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e133b766a0e7c000ab752ae3083c494') in 0.019367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefabs/Environment/Decoration/Floodlights/Floodlight_Shard_Prefab.prefab
+  artifactKey: Guid(3c2aaa188629e4940a61727acb66ef08) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Environment/Decoration/Floodlights/Floodlight_Shard_Prefab.prefab using Guid(3c2aaa188629e4940a61727acb66ef08) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df7878979a2d5b373085f82da8d3b6b0') in 0.0201659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Environment/StructuralElements/RoundGround/Textures/RoundGround_D.tga
+  artifactKey: Guid(353a46bb3f96504459db95250670e649) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/StructuralElements/RoundGround/Textures/RoundGround_D.tga using Guid(353a46bb3f96504459db95250670e649) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b989a12a78245257755225561f51cf5') in 0.034027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Environment/Shared/Textures/lighting_NRM.tga
+  artifactKey: Guid(65437873456c45a4982103aa8f68e508) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Shared/Textures/lighting_NRM.tga using Guid(65437873456c45a4982103aa8f68e508) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a92f0e4aaa29394bb87e21ad8e9e34b5') in 0.0308628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Fonts/TMP Font Assets/WUN SDF.asset
+  artifactKey: Guid(8b6ce97b0ae71f74985af014bf8b87cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/TMP Font Assets/WUN SDF.asset using Guid(8b6ce97b0ae71f74985af014bf8b87cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Upgrading font asset [WUN SDF] to version 1.1.0.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+TMPro.TMP_FontAsset:UpgradeFontAsset () (at ./Library/PackageCache/com.unity.ugui@2.0.0/Runtime/TMP/TMP_FontAsset.cs:3565)
+TMPro.TMP_FontAsset:Awake () (at ./Library/PackageCache/com.unity.ugui@2.0.0/Runtime/TMP/TMP_FontAsset.cs:702)
+UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.ugui@2.0.0/Runtime/TMP/TMP_FontAsset.cs Line: 3565)
+
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cdaf3ebfe6a555ffcb919157d83c2404') in 0.0604569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/VFX (Shared)/Textures/noise.png
+  artifactKey: Guid(8905f4f2bf8a51b46b59751875b0899c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/VFX (Shared)/Textures/noise.png using Guid(8905f4f2bf8a51b46b59751875b0899c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9051554f07e382863b6740db53d82230') in 0.0276894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Environment/Props/Chairs/Textures/Chair_NRM.tga
+  artifactKey: Guid(2e28fd0dd28b8ff4bb8de42fb591558b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Props/Chairs/Textures/Chair_NRM.tga using Guid(2e28fd0dd28b8ff4bb8de42fb591558b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7706de5aeff7c884690854b9a31c7143') in 0.0313455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Environment/Doors/ExteriorDoor/exterior_door_B.FBX
+  artifactKey: Guid(a5ee3267bf64414499d90e86d06515d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/Doors/ExteriorDoor/exterior_door_B.FBX using Guid(a5ee3267bf64414499d90e86d06515d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c636e768b218ed71d596bb4d0e6db33e') in 0.0507717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Environment/StructuralElements/Layout/Textures/LayoutWall_NRM.tga
+  artifactKey: Guid(f9ee011ac9218bc4d98cfcd80fa564da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/StructuralElements/Layout/Textures/LayoutWall_NRM.tga using Guid(f9ee011ac9218bc4d98cfcd80fa564da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4409e0cb08edd39e4e152fd4fbabfd9c') in 0.0321033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ScriptableRenderPasses/PlanerReflections/PlanerReflections.cs
+  artifactKey: Guid(596893b19044d9c48bd13051b4e74ff9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ScriptableRenderPasses/PlanerReflections/PlanerReflections.cs using Guid(596893b19044d9c48bd13051b4e74ff9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9df7ae11b766bd24769fc8076748f43a') in 0.0105579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Scenes/Scenes/_CompletedLevel/ReflectionProbe-2.exr
+  artifactKey: Guid(3eba6f87e58360743a8046ffbda4b6f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Scenes/_CompletedLevel/ReflectionProbe-2.exr using Guid(3eba6f87e58360743a8046ffbda4b6f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2dcab04f79f604222860a82aa7d3d24') in 0.0244114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

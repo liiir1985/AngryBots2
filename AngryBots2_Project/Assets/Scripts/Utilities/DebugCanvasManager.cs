@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Rendering;
-using UnityEngine.Experimental.Rendering.LightweightPipeline;
+//using UnityEngine.Experimental.Rendering.LightweightPipeline;
 
 public class DebugCanvasManager : MonoBehaviour
 {
@@ -16,7 +16,7 @@ public class DebugCanvasManager : MonoBehaviour
     public struct LWRPAssetSettings
     {
         public string qualityName;
-        public LightweightRenderPipelineAsset qualityRenderPipelineAsset;
+        //public UniversalRenderPipelineAsset qualityRenderPipelineAsset;
         public GameObject qualitySelectedDisplay;
     }
 
@@ -56,7 +56,7 @@ public class DebugCanvasManager : MonoBehaviour
     public void SwitchLWRPAsset(int newAssetID)
     {
 
-        GraphicsSettings.renderPipelineAsset = lwrpAssetSettings[newAssetID].qualityRenderPipelineAsset;
+        //GraphicsSettings.renderPipelineAsset = lwrpAssetSettings[newAssetID].qualityRenderPipelineAsset;
         UpdateLWRPAssetUI(newAssetID);
 
     }
@@ -69,12 +69,12 @@ public class DebugCanvasManager : MonoBehaviour
         lwrpAssetSettings[currentLWRPAssetID].qualitySelectedDisplay.SetActive(true);
 
         
-        LightweightRenderPipelineAsset asset = GraphicsSettings.renderPipelineAsset as LightweightRenderPipelineAsset;
+        //LightweightRenderPipelineAsset asset = GraphicsSettings.renderPipelineAsset as LightweightRenderPipelineAsset;
 
-        string assetInfoString =
-            "HDR: " + asset.supportsHDR;
+        //string assetInfoString =
+        //    "HDR: " + asset.supportsHDR;
 
-        currentLWRPAssetInfo.text = assetInfoString;
+        //currentLWRPAssetInfo.text = assetInfoString;
 
     }
 

@@ -1,7 +1,7 @@
 ﻿using System;
 using Unity.Mathematics;
 using UnityEngine.Rendering;
-
+/*
 namespace UnityEngine.Experimental.Rendering.LightweightPipeline
 {
     [ImageEffectAllowedInSceneView]
@@ -243,3 +243,4 @@ namespace UnityEngine.Experimental.Rendering.LightweightPipeline
         }
     }
 }
+*/

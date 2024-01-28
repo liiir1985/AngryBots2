@@ -1,0 +1,392 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.7f1 (0a9195b3d453) revision 692629'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'zh' Physical Memory: 32671 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Program Files\2023.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+E:/myexe/AngryBots2/AngryBots2_Project
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+54599
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: E:/myexe/AngryBots2/AngryBots2_Project
+E:/myexe/AngryBots2/AngryBots2_Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [33624] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2116186661 [EditorId] 2116186661 [Version] 1048832 [Id] WindowsEditor(7,Andy-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [33624] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2116186661 [EditorId] 2116186661 [Version] 1048832 [Id] WindowsEditor(7,Andy-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 4.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.7f1 (0a9195b3d453)
+[Subsystems] Discovering subsystems at path E:/Program Files/2023.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/myexe/AngryBots2/AngryBots2_Project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   NVIDIA
+    VRAM:     8019 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'E:/Program Files/2023.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Program Files/2023.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Program Files/2023.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: E:/Program Files/2023.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002017 seconds.
+- Loaded All Assemblies, in  0.396 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.313 seconds
+Domain Reload Profiling: 709ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (150ms)
+		LoadAssemblies (145ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (134ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (313ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (258ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (188ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.937 seconds
+Refreshing native plugins compatible for Editor in 3.54 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.958 seconds
+Domain Reload Profiling: 1894ms
+	BeginReloadAssembly (347ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (504ms)
+		LoadAssemblies (409ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (208ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (140ms)
+			BuildScriptInfoCaches (38ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (958ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (742ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (403ms)
+			ProcessInitializeOnLoadMethodAttributes (192ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 3.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5318 unused Assets / (5.3 MB). Loaded Objects now: 6005.
+Memory consumption went from 188.9 MB to 183.6 MB.
+Total: 16.448400 ms (FindLiveObjects: 1.182900 ms CreateObjectMapping: 0.380300 ms MarkObjects: 11.738500 ms  DeleteObjects: 3.144400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 7547.595818 seconds.
+  path: Assets/Environment/Props/Barrels/Textures/BarrelLarge_NRM.tga
+  artifactKey: Guid(1f25228196ef55f4599731590147c51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Props/Barrels/Textures/BarrelLarge_NRM.tga using Guid(1f25228196ef55f4599731590147c51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce35b3dfde8c52e538791a5d8b971cb5') in 0.0843327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.744820 seconds.
+  path: Assets/Environment/Props/CompanyHologram/Textures/LogoHoloGram_NRM.tga
+  artifactKey: Guid(24fdd13f02b483b4aa271fce74889542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Props/CompanyHologram/Textures/LogoHoloGram_NRM.tga using Guid(24fdd13f02b483b4aa271fce74889542) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac84231697d25bfbf0eb62070ac6fbfa') in 0.0187421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.440917 seconds.
+  path: Assets/Environment/Props/RespawnChamber/Textures/Terminals_NRM.tga
+  artifactKey: Guid(c6cd81c537f0b724dbc27670b163130d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Props/RespawnChamber/Textures/Terminals_NRM.tga using Guid(c6cd81c537f0b724dbc27670b163130d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42df03bd56316d7f8424265af5697075') in 0.0208907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.927587 seconds.
+  path: Assets/Environment/Props/Screens/Materials/SmallScreen_5-lambert2.mat
+  artifactKey: Guid(1db73b7bc7acd4382a7b3b643a91076f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Props/Screens/Materials/SmallScreen_5-lambert2.mat using Guid(1db73b7bc7acd4382a7b3b643a91076f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c8ff04a10e1a9b8b7ea247b46111e5d') in 1.0341342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.390979 seconds.
+  path: Assets/Environment/Props/Tables/Materials/HoloSpider_Mat.mat
+  artifactKey: Guid(792acf1c983724cdab7529d91fd6ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Props/Tables/Materials/HoloSpider_Mat.mat using Guid(792acf1c983724cdab7529d91fd6ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03aa0c31b5e2bd5904f738ef2a3cfede') in 0.0229104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Environment/Props/Tables/Materials/LightTrimTable_Mat.mat
+  artifactKey: Guid(d441279c60c5049c1893a7aef984aa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Props/Tables/Materials/LightTrimTable_Mat.mat using Guid(d441279c60c5049c1893a7aef984aa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e2714d941332692948db9cdaf5afd6d') in 0.0250313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.537122 seconds.
+  path: Assets/Environment/Props/Tables/Textures/conferenceTable_M.tga
+  artifactKey: Guid(98248bbf71634ed40a1464e81a97f3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Props/Tables/Textures/conferenceTable_M.tga using Guid(98248bbf71634ed40a1464e81a97f3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cff8bf3a7fde3f70e07e5726137f96d5') in 0.0225952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Environment/Props/Tables/Textures/conferenceTable_N.tga
+  artifactKey: Guid(84b2e8d6de2c31243aedf59ad429543e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Props/Tables/Textures/conferenceTable_N.tga using Guid(84b2e8d6de2c31243aedf59ad429543e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0025b8b3aa0feef516cca94f4486860a') in 0.0235074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Environment/Props/Tables/Textures/SpiderWire.psd
+  artifactKey: Guid(1668a264bfc454eaab563779289d9e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Props/Tables/Textures/SpiderWire.psd using Guid(1668a264bfc454eaab563779289d9e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0a05973e7762956d112299b948d2fab') in 0.0216236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.659124 seconds.
+  path: Assets/Environment/Shared/Textures/Large_metal_N.tga
+  artifactKey: Guid(0f37a735f953433468764ad512cdc915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Shared/Textures/Large_metal_N.tga using Guid(0f37a735f953433468764ad512cdc915) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17c979ef1c133a01194a22c2352bac41') in 0.0189508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Environment/Shared/Textures/Large_red_N.tga
+  artifactKey: Guid(02e4a719219007c4baf93044a83743ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Shared/Textures/Large_red_N.tga using Guid(02e4a719219007c4baf93044a83743ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '627a28c04e8a0eae1cc8e1e72ec17f14') in 0.0236614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Environment/Shared/Textures/ScaffoldingGeometry_M.tga
+  artifactKey: Guid(2cd4e4399c6ad8f45ac575f6b4d936be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Shared/Textures/ScaffoldingGeometry_M.tga using Guid(2cd4e4399c6ad8f45ac575f6b4d936be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdf6fd72062f097a2446bd6d9dc310e9') in 0.0348421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Environment/Shared/Textures/Large_red_E.tga
+  artifactKey: Guid(6be32201e9b2f0647b4f56a6c54aaefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Shared/Textures/Large_red_E.tga using Guid(6be32201e9b2f0647b4f56a6c54aaefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b807dac8e277b3fc9886aef9ed03c328') in 0.0276571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.339869 seconds.
+  path: Assets/Environment/Shared/Materials/LightShard_Mat.mat
+  artifactKey: Guid(ac580520b39ed4bb292e8f49dd2b6726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Shared/Materials/LightShard_Mat.mat using Guid(ac580520b39ed4bb292e8f49dd2b6726) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e52d0c3688614662cea00abc07076a9e') in 0.1653086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.906643 seconds.
+  path: Assets/Environment/StructuralElements/Hoses/HoseFeeder.fbx
+  artifactKey: Guid(41bd0c6001f414d2596e892f6b03b2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/StructuralElements/Hoses/HoseFeeder.fbx using Guid(41bd0c6001f414d2596e892f6b03b2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9be7627cadf694c8f5dcffd6099624b') in 0.2060885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.413337 seconds.
+  path: Assets/Environment/StructuralElements/Layout/Materials/metalPlating.mat
+  artifactKey: Guid(2f3588b8eeda24a9cb9cf70e72c86e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/StructuralElements/Layout/Materials/metalPlating.mat using Guid(2f3588b8eeda24a9cb9cf70e72c86e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5255b96065a46874e03c47a5cf5a573b') in 0.050222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.415304 seconds.
+  path: Assets/Environment/StructuralElements/Layout/Textures/LayoutFloor_NRM.tga
+  artifactKey: Guid(465d09bcc52d4514a9b1cb06e68ab6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/StructuralElements/Layout/Textures/LayoutFloor_NRM.tga using Guid(465d09bcc52d4514a9b1cb06e68ab6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '665f824fb8c6e19be2224384b1a75db1') in 0.0268986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Environment/StructuralElements/Layout/Textures/MetalPlating_M.tga
+  artifactKey: Guid(41abd28e7c4b0e14abcbe5b79a9ee928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/StructuralElements/Layout/Textures/MetalPlating_M.tga using Guid(41abd28e7c4b0e14abcbe5b79a9ee928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbf68a6c51d252b1b0bf4d7df5597d89') in 0.0238667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Environment/StructuralElements/Layout/Textures/MetalPlating_D.tga
+  artifactKey: Guid(a89fb64b9eef9834c9ff69b067e3e887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/StructuralElements/Layout/Textures/MetalPlating_D.tga using Guid(a89fb64b9eef9834c9ff69b067e3e887) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d5a47d188f18a29bbc1062ae76ebab1') in 0.0269232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Environment/StructuralElements/Layout/Textures/LayoutWall02_NRM.tga
+  artifactKey: Guid(5a3ceea7ac007a146b269c132650cf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/StructuralElements/Layout/Textures/LayoutWall02_NRM.tga using Guid(5a3ceea7ac007a146b269c132650cf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91f4725c44c9a1f6bd0e8bc8ae80c249') in 0.023317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.013245 seconds.
+  path: Assets/Environment/StructuralElements/Pipes/small_red_long.fbx
+  artifactKey: Guid(2e499e2516f166740a78ce81e2fbf8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/StructuralElements/Pipes/small_red_long.fbx using Guid(2e499e2516f166740a78ce81e2fbf8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e612bc1d906b310546917730c922fcb') in 0.0477491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.819322 seconds.
+  path: Assets/Environment/StructuralElements/Railings/Textures/Railings_M.tga
+  artifactKey: Guid(e177e83be7d86f1448af7f164efb0a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/StructuralElements/Railings/Textures/Railings_M.tga using Guid(e177e83be7d86f1448af7f164efb0a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74e719fb358e846d98a5fc8cadad28cc') in 0.0213192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.423181 seconds.
+  path: Assets/Environment/StructuralElements/RoundGround/Textures/RoundGround_M.tga
+  artifactKey: Guid(f1930e6f86cf79f47aa000a39f2a5fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/StructuralElements/RoundGround/Textures/RoundGround_M.tga using Guid(f1930e6f86cf79f47aa000a39f2a5fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2377d618ad0ba2636b20566fea3bd6d') in 0.0217091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Environment/StructuralElements/RoundGround/Textures/RoundGround_NRM.tga
+  artifactKey: Guid(b7cf05f06764b6349ac2e86ecaeb1809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/StructuralElements/RoundGround/Textures/RoundGround_NRM.tga using Guid(b7cf05f06764b6349ac2e86ecaeb1809) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6600aa9ff1cb10f2d6c51264069575b6') in 0.0154683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
